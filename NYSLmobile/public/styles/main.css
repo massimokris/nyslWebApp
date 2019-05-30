@@ -1,0 +1,616 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*le damos un padding a todo el cuerpo de la pagina*/
+body{
+
+    /*font-family: "Comic Sans Ms", cursive, sans-serif !important;*/
+    /*background-color: #3e3e3e;*/
+    font-family: "Lato",sans-serif;
+
+}
+
+/*le damos un borde a la barra de navegacion */
+/*.navbar{
+
+    background-color: #044a04;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    background: linear-gradient(to bottom right, rgba(193, 216, 17, 0.8), #020258, #d91e1e);
+
+}*/
+
+/*le damos un borde a la barra de navegacion */
+footer{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.welcome, .home, .u1, .u2, .u3, .u4, .u5, .u5, .contact, .maps{
+
+    background-color: white;
+}
+
+button{
+
+    border: solid 1px;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+}
+
+.btn-md{
+
+    color: #22356F;
+    background-color: #fff;
+    border-radius: 40px 30px 40px 40px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 45px 45px 45px 45px;
+    margin: 5px 0 15px 15px;
+}
+
+iframe{
+
+    width: 90%;
+    margin: 0 0 0 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #22356F;
+    resize: vertical;
+}
+
+.navbar-light .navbar-toggler {
+    color: #22356F;
+    border-color: transparent;
+    font-size: 2em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: none;
+}
+
+textarea {
+    margin: 10px 0 5px 8px;
+    font-family: none;
+    font-size: none;
+    line-height: inherit;
+    width: 90%;
+}
+
+.content-logo{
+
+    width: 90px;
+    height: 90px;
+}
+
+.content-team{
+
+    width: 70px;
+    height: 75px;
+    margin: 20px 20px 0px 10px
+}
+.content-team img, .content-logo img{
+
+    width: 100%;
+    height: 100%;
+}
+
+header{
+
+    /*width: 100%;
+    background-image: url(header_img2.jpg);
+    background: linear-gradient(to bottom right, #000000, #000, #3c3434, grey, #fff5f5);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: ;*/
+
+    -webkit-box-shadow: 0px 5px 5px 0px #c1c0c0;
+    -moz-box-shadow: 0px 5px 5px 0px #c1c0c0;
+    box-shadow: 0px 5px 5px #c1c0c0;
+
+}
+
+.slider{
+
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+
+    display: flex;
+    padding: 0;
+    width: 500%;
+    height: 140px;
+
+    animation: change 25s infinite alternate;
+}
+
+.slider li{
+
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.slider img{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+@keyframes change{
+
+    0% {margin-left: 0;}
+    15% {margin-left: 0;}
+
+    20% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    55% {margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    75% {margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
+
+.subtitle{
+
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background-color: #22356F;
+}
+
+table{
+
+    width: 100%;
+    border: 1px solid dimgray;
+}
+
+.categories li{
+
+    list-style: none;
+}
+
+.team{
+
+    margin: 1px 10px 5px 5px;
+    padding: 10px;
+}
+
+.topHeader {
+    background-color: #22356F;
+}
+
+.team_logos {
+    width: 100%;
+    float: right;
+    text-align: left;
+    padding: 6px;
+    background-color: #22356F;
+}
+
+.logo {
+    float: right;
+    width: 14%;
+}
+
+.team_logos img {
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    display: block;
+}
+
+.from{
+
+    padding: 15px;
+}
+
+.schedule, .matches {
+
+    margin: 10px 5px 10px 15px;
+}
+
+.months, .directions {
+
+    margin: 10px 0px 10px 15px;
+}
+
+.months ul{
+
+    margin: 10px 0px 10px 20px;
+}
+
+
+#categoriesMenu ul{
+
+    margin: 2px 0px 5px 15px;
+    border: 1px solid;
+}
+
+#categoriesMenu li{
+
+    list-style: none;
+    padding: 5px;
+}
+
+#teamsMenu li{
+
+    list-style: none;
+    padding: 5px;
+}
+
+#teamsMenu ul{
+
+    margin: 2px 0px 5px 15px;
+    border: 1px solid;
+}
+
+.table_img_logo{
+
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.table_img_logo img{
+
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.table tr th, .table tr td {
+    padding: 0.40rem;
+    vertical-align: middle!important;
+    border-top: 1px solid #dee2e6;
+}
+
+.table_vs{
+
+    color: white;
+    background-color: #22356F;
+    padding: 2px;
+}
+
+.scoreboard{
+
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 125px;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    margin: 15px 0px 10px 0px;
+}
+
+.scoreboard_wrapper{
+
+    /*padding: 0 40px;*/
+    display: inline-flex;
+    width: 100%;
+}
+
+.scoreboard_scroller-left{
+
+    left: 0;
+    top: 10px;
+    height: 111px;
+    padding: 22px 16px 0px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+    color: #22356F;
+    border-top-color: #ccc;
+    border-right-color: #ccc;
+}
+
+.scoreboard_scroller-right{
+
+    right: 0;
+    top: 10px;
+    height: 111px;
+    padding: 22px 18px 0px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    box-shadow: -2px 0px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+    color: #22356F;
+    border-top-color: #ccc;
+    border-left-color: #ccc;
+}
+
+.scoreboard_games-wrapper{
+
+    overflow-x: scroll;
+}
+
+.scoreboard_games {
+    position: relative;
+    display: inline-flex;
+    list-style: none;
+    list-style-type: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.scoreboard_game {
+    position: relative;
+    overflow: hidden;
+    width: 140px;
+    height: 111px;
+    padding: 6px 10px 0 10px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    opacity: 1;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    /*margin-top: 10px;*/
+}
+
+.game_header {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.game_info{
+
+    display: grid;
+    grid-template-columns: 1fr 53px 1fr;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.game_score{
+
+    color: #22356F;
+    line-height: 2em;
+    text-align: center;
+}
+
+.team_home{
+
+    width: 35px;
+    height: 35px;
+}
+
+.team_home img{
+
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.team_away{
+
+    width: 35px;
+    height: 35px;
+}
+
+.team_away img{
+
+    width: 100%;
+    height: 100%;
+    margin-left: -15px;
+}
+
+.schedule_home{
+
+    width: 95%;
+    height: 700px;
+    border: 1px solid;
+    border-color: #ccc;
+    padding: 8px;
+    margin: auto;
+
+}
+
+.schedule_content{
+
+    width: 100%;
+    height: 220px;
+    padding: 12px;
+    margin: 0px 0px 10px 0px;
+}
+
+.content-home{
+
+    margin-top: 135px;
+    color: white;
+}
+
+#schedule1{
+
+    background-image: url(header_img6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+#schedule2{
+
+    background-image: url(header_img4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+#schedule3{
+
+    background-image: url(header_img5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+#fullInfo{
+
+  background-image: url(header_img8.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+#u1, #u2, #u3, #u4, #u5, #u6, #teams, #calvary, #edmonton, #forge, #pacific, #york, #valour, #maps, #contact, #topHeader, #navBar, #scoreboard, #sliderImg, #schedule_home, #footer, #matches{
+
+    display: none;
+}
+
+#fullSchedule{
+
+    margin: auto;
+    border: 1px solid;
+    border-color: #ccc;
+}
+
+ul li{
+
+    list-style: none;
+}
+
+#fullMatches, #u1, #u2, #u3, #u4, #u5, #u6, #teams, #maps, #contact{
+    
+    margin: 20px 0px 0px 0px;
+} 
+
+#chat{
+    
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#chat_full{
+    
+    width: 90%;
+    height: 400px;
+    margin: auto;
+}
+
+#headerChat{
+    
+    width: 100%;
+    background-color: #22356F!important;
+}
+
+#postDiv{
+    
+    background-color: #22356F!important;
+}
+
+#subHeader{
+    
+    width: 100%;
+    background-color: white;
+}
+
+#add{
+    
+    background-color: chartreuse;
+}
+
+#chatTitle{
+    
+    color: chartreuse;
+}
+
+.postRecent{
+    
+    color: black;
+}
+
+#iconPostRecent{
+    
+    color: black!important;
+}
+
+#sign-out-button{
+    
+    margin: 0px 0px 0px 5px;
+}
+
+.mdl-layout__header-row {
+    height: 56px;
+    padding: 0 0px 0 0px!important;
+    margin: auto;
+    width: 50%;
+}
+
+.mdl-layout__header-row {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 64px;
+    margin: 0;
+    padding: 0 0px 0 0px!important;
+}
+
+.mdl-layout__tab {
+    padding: 0 0 0 0!important;
+}
+
+#menu-recent{
+    
+    margin: 0 0 0 20px;
+}
